@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "firstDemoForCocoaPods"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "创建cocoaPods测试"
 
   # This description is used to generate tags and improve search results.
