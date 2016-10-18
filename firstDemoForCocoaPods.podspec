@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yirenyiyi/firstDemoForCocoaPods.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/yirenyiyi/firstDemoForCocoaPods.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
