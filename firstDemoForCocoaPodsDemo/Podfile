@@ -6,7 +6,7 @@ target 'firstDemoForCocoaPods' do
   use_frameworks!
 
   # Pods for firstDemoForCocoaPods
-  pod 'firstDemoForCocoaPods', '../firstDemoForCocoaPods'
+  pod 'firstDemoForCocoaPods', :path => '../firstDemoForCocoaPods'
 
   target 'firstDemoForCocoaPodsTests' do
     inherit! :search_paths
