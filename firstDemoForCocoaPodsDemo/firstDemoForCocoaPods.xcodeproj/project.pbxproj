@@ -217,6 +217,7 @@
 				TargetAttributes = {
 					0336BF051DB4AA23001B6E87 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DNRXAM6J8U;
 						ProvisioningStyle = Automatic;
 					};
 					0336BF1E1DB4AA23001B6E87 = {
@@ -236,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -434,11 +436,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DNRXAM6J8U;
 				INFOPLIST_FILE = firstDemoForCocoaPods/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPods;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -447,11 +449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DNRXAM6J8U;
 				INFOPLIST_FILE = firstDemoForCocoaPods/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPods;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -521,6 +523,7 @@
 				0336BF351DB4AA23001B6E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0336BF361DB4AA23001B6E87 /* Build configuration list for PBXNativeTarget "firstDemoForCocoaPodsTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +532,7 @@
 				0336BF381DB4AA23001B6E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0336BF391DB4AA23001B6E87 /* Build configuration list for PBXNativeTarget "firstDemoForCocoaPodsUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +541,7 @@
 				0336BF3B1DB4AA23001B6E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
