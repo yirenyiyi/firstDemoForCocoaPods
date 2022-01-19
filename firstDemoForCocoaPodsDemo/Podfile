@@ -4,13 +4,13 @@ source "https://github.com/CocoaPods/Specs.git"
 
 target 'firstDemoForCocoaPods' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  # use_frameworks!
 
   # Pods for firstDemoForCocoaPods
   pod 'firstDemoForCocoaPods', :path => '../'
 
   target 'firstDemoForCocoaPodsTests' do
-    inherit! :search_paths
+    # inherit! :search_paths
     # Pods for testing
   end
 
