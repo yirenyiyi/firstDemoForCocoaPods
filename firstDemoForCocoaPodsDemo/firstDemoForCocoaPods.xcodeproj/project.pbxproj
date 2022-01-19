@@ -15,9 +15,9 @@
 		0336BF191DB4AA23001B6E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0336BF171DB4AA23001B6E87 /* LaunchScreen.storyboard */; };
 		0336BF241DB4AA23001B6E87 /* firstDemoForCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336BF231DB4AA23001B6E87 /* firstDemoForCocoaPodsTests.m */; };
 		0336BF2F1DB4AA23001B6E87 /* firstDemoForCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336BF2E1DB4AA23001B6E87 /* firstDemoForCocoaPodsUITests.m */; };
-		2FE35CE13FFD6F9A0408E05D /* Pods_firstDemoForCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B855A3A08792681615900D7 /* Pods_firstDemoForCocoaPods.framework */; };
-		7247779EF33EA9EA4B7CFE90 /* Pods_firstDemoForCocoaPodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6D25BDF4DB202245625E6 /* Pods_firstDemoForCocoaPodsTests.framework */; };
-		D7A3E159BAF0499356A18BAA /* Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83314497B896440AD91AA52 /* Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework */; };
+		147CD6BFC61CEEF022CEFABC /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6360C2756550EC0137EA9F56 /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a */; };
+		21BEA10C0B7296C7E6E4CAFE /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21616C51770F3F04E7265B8A /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a */; };
+		E1169DF9F4BEE7BA203C861E /* libPods-firstDemoForCocoaPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C8F05BAA01754A2BA53350 /* libPods-firstDemoForCocoaPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,15 +54,17 @@
 		0336BF2A1DB4AA23001B6E87 /* firstDemoForCocoaPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstDemoForCocoaPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0336BF2E1DB4AA23001B6E87 /* firstDemoForCocoaPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstDemoForCocoaPodsUITests.m; sourceTree = "<group>"; };
 		0336BF301DB4AA23001B6E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67E6D25BDF4DB202245625E6 /* Pods_firstDemoForCocoaPodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstDemoForCocoaPodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21616C51770F3F04E7265B8A /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6360C2756550EC0137EA9F56 /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD4CC077802CE564B302022 /* Pods-firstDemoForCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods.release.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods/Pods-firstDemoForCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		6E96596383D5FAF86731ECBE /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.release.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.release.xcconfig"; sourceTree = "<group>"; };
 		728D6CBBF475BAF5B8346A92 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.debug.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BC2F2D1FEB43B95F77D41B2 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.release.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9B855A3A08792681615900D7 /* Pods_firstDemoForCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstDemoForCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B83314497B896440AD91AA52 /* Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C8F05BAA01754A2BA53350 /* libPods-firstDemoForCocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firstDemoForCocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B89A639FE17471758C88D /* Pods-firstDemoForCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods.debug.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods/Pods-firstDemoForCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
 		ECCE2085B347873A0F3088C4 /* Pods-firstDemoForCocoaPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPodsTests.debug.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPodsTests/Pods-firstDemoForCocoaPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC3B029F581575976566B8D /* Pods-firstDemoForCocoaPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPodsTests.release.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPodsTests/Pods-firstDemoForCocoaPodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFEACC1E5E5492D0040735F2 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.debug.xcconfig"; path = "Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE35CE13FFD6F9A0408E05D /* Pods_firstDemoForCocoaPods.framework in Frameworks */,
+				E1169DF9F4BEE7BA203C861E /* libPods-firstDemoForCocoaPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7247779EF33EA9EA4B7CFE90 /* Pods_firstDemoForCocoaPodsTests.framework in Frameworks */,
+				21BEA10C0B7296C7E6E4CAFE /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A3E159BAF0499356A18BAA /* Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework in Frameworks */,
+				147CD6BFC61CEEF022CEFABC /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +162,9 @@
 		5FD6B573FCC2FA422EFE3A32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B855A3A08792681615900D7 /* Pods_firstDemoForCocoaPods.framework */,
-				B83314497B896440AD91AA52 /* Pods_firstDemoForCocoaPods_firstDemoForCocoaPodsUITests.framework */,
-				67E6D25BDF4DB202245625E6 /* Pods_firstDemoForCocoaPodsTests.framework */,
+				A4C8F05BAA01754A2BA53350 /* libPods-firstDemoForCocoaPods.a */,
+				21616C51770F3F04E7265B8A /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.a */,
+				6360C2756550EC0137EA9F56 /* libPods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,6 +178,8 @@
 				7BC2F2D1FEB43B95F77D41B2 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests.release.xcconfig */,
 				ECCE2085B347873A0F3088C4 /* Pods-firstDemoForCocoaPodsTests.debug.xcconfig */,
 				FAC3B029F581575976566B8D /* Pods-firstDemoForCocoaPodsTests.release.xcconfig */,
+				FFEACC1E5E5492D0040735F2 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.debug.xcconfig */,
+				6E96596383D5FAF86731ECBE /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,7 +195,6 @@
 				0336BF021DB4AA23001B6E87 /* Sources */,
 				0336BF031DB4AA23001B6E87 /* Frameworks */,
 				0336BF041DB4AA23001B6E87 /* Resources */,
-				3CFC13463D6BE1BED0867E4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +232,6 @@
 				0336BF261DB4AA23001B6E87 /* Sources */,
 				0336BF271DB4AA23001B6E87 /* Frameworks */,
 				0336BF281DB4AA23001B6E87 /* Resources */,
-				E0CF1EFA27E462D56FF8F292 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,24 +318,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3CFC13463D6BE1BED0867E4B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firstDemoForCocoaPods/Pods-firstDemoForCocoaPods-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/firstDemoForCocoaPods/firstDemoForCocoaPods.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/firstDemoForCocoaPods.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firstDemoForCocoaPods/Pods-firstDemoForCocoaPods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CC03C670029EAB5FC38A0726 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,24 +340,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0CF1EFA27E462D56FF8F292 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/firstDemoForCocoaPods/firstDemoForCocoaPods.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/firstDemoForCocoaPods.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E6B1368722EB16634E3567BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,7 +355,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firstDemoForCocoaPodsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -575,13 +541,16 @@
 			baseConfigurationReference = CC9B89A639FE17471758C88D /* Pods-firstDemoForCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9PKBF7ZMS;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = firstDemoForCocoaPods/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -590,19 +559,22 @@
 			baseConfigurationReference = 6CD4CC077802CE564B302022 /* Pods-firstDemoForCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9PKBF7ZMS;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = firstDemoForCocoaPods/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		0336BF371DB4AA23001B6E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECCE2085B347873A0F3088C4 /* Pods-firstDemoForCocoaPodsTests.debug.xcconfig */;
+			baseConfigurationReference = FFEACC1E5E5492D0040735F2 /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = firstDemoForCocoaPodsTests/Info.plist;
@@ -615,7 +587,7 @@
 		};
 		0336BF381DB4AA23001B6E87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC3B029F581575976566B8D /* Pods-firstDemoForCocoaPodsTests.release.xcconfig */;
+			baseConfigurationReference = 6E96596383D5FAF86731ECBE /* Pods-firstDemoForCocoaPods-firstDemoForCocoaPodsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = firstDemoForCocoaPodsTests/Info.plist;
