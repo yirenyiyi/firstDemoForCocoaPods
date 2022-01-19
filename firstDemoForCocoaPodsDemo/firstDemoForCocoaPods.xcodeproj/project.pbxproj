@@ -579,7 +579,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = firstDemoForCocoaPodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPodsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPodsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstDemoForCocoaPods.app/firstDemoForCocoaPods";
 			};
@@ -592,7 +592,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = firstDemoForCocoaPodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPodsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPodsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstDemoForCocoaPods.app/firstDemoForCocoaPods";
 			};
@@ -604,7 +604,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = firstDemoForCocoaPodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPodsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPodsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = firstDemoForCocoaPods;
 			};
@@ -616,7 +616,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = firstDemoForCocoaPodsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wx.firstDemoForCocoaPodsUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaodun.firstDemoForCocoaPodsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = firstDemoForCocoaPods;
 			};
